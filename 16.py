@@ -1,4 +1,4 @@
 x="python"
 y="is"
-z="awesom"
+z="awesome"
 print(x,y,z)

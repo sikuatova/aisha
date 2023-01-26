@@ -1,2 +1,2 @@
-x="python is awesom"
+x="python is awesome"
 print(x)

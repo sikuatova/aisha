@@ -1,6 +1,6 @@
 x="Python "
 y="is "
-z="awesom"
+z="awesome"
 print(x+y+z)
 
 a=5
