@@ -1,9 +1,8 @@
-string=input()
-def polindrome(string):
-    revstring=string[::-1]
-    if string==revstring:
-        print("string is palindrome")
-    else:
-        print("not")
+a_string=input()
 
-polindrome(string) 
+def palindrome(a_string):
+    a_string = a_string.lower().replace(' ', '')
+    reversed_string = ''.join(reversed(a_string))
+    return a_string == reversed_string
+
+print(palindrome(a_string))
